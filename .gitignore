@@ -1,0 +1,34 @@
+# AOSP source - too large
+port/aosp/
+port/out/
+port/ccache/
+port/parked-aosp-trees/
+port/parked-trees/
+port/logs/
+port/lopsi-stubs-backup/
+
+# Build artifacts
+port/boot.img
+port/system.img
+port/*.img
+port/*.zip
+port/*.apk
+
+# Large directories
+.AADash/
+.AAFix/
+.LopsiDotUpdates/
+.LopsiLauncher/
+.LopsiSetup/
+.PulseLink/
+.backups/
+.downloads/
+.linuxphone/
+
+# Misc
+port/STATUS.txt
+port/!!!_DO_NOT_RM_OUT_OR_CCACHE_!!!.command
+port/!!!_OUT_AND_CCACHE_DO_NOT_DELETE_!!!.txt
+
+# OS
+.DS_Store

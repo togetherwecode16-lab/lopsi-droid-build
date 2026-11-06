@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  LopsiDroid 0.1 — rosy local manifest
+  Do NOT redefine remotes that already exist in the AOSP manifest.
+-->
+<manifest>
+  <remote name="github" fetch="https://github.com/" />
+
+  <project path="device/xiaomi/rosy" name="aepranata/device_xiaomi_rosy" remote="github" revision="15" />
+  <project path="kernel/xiaomi/rosy" name="aepranata/kernel_xiaomi_rosy" remote="github" revision="15" />
+  <project path="vendor/xiaomi/rosy" name="aepranata/vendor_xiaomi_rosy" remote="github" revision="15" />
+
+  <project path="device/qcom/sepolicy-legacy-um"
+           name="LineageOS/android_device_qcom_sepolicy-legacy-um"
+           remote="github"
+           revision="lineage-22.2" />
+
+  <project path="hardware/qcom-caf/common"
+           name="LineageOS/android_hardware_qcom_common"
+           remote="github"
+           revision="lineage-22.2" />
+</manifest>
