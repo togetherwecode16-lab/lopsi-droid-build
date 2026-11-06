@@ -1,0 +1,18 @@
+{
+    "name": "LineageOS Build",
+    "context": ".",
+    "image": "mcr.microsoft.com/devcontainers/ubuntu:24.04",
+    "forwardPorts": [8888],
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-vscode.cpptools-extension-pack"
+            ]
+        }
+    },
+    "features": {
+        "ghcr.io/devcontainers/features/cpp:1": {},
+        "ghcr.io/devcontainers/features/git:2": {}
+    },
+    "postCreateCommand": "chmod +x ./port/scripts/build-soong-mem.sh"
+}
