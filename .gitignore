@@ -9,10 +9,10 @@ port/lopsi-stubs-backup/
 
 # Build artifacts
 port/boot.img
-port/system.img
 port/*.img
 port/*.zip
 port/*.apk
+port/*.log
 
 # Large directories
 .AADash/
